@@ -3,82 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Vision - V Network Services</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>VNST Vision</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="logo-container">
-                <img src="images/logo.png" alt="V Network Services Logo" class="logo">
-                <h1>V NETWORK SERVICES</h1>
-                <p class="slogan">Bridge To Helping Poor Persons</p>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="VNST Swap Logo">
+                <span>VNST Swap</span>
             </div>
-            <button class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="#" class="active">Vision</a></li>
-                    <li><a href="tokonomix.html">Tokonomix</a></li>
-                    <li><a href="why-join.html">Why Join Us</a></li>
-                </ul>
-            </nav>
-        </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="token.html">Token</a></li>
+                <li><a href="vision.html" class="active">Vision</a></li>
+                <li><a href="whyjoin.html">Why Join</a></li>
+            </ul>
+            <div class="wallet-connect">
+                <button id="connectWalletBtn">Connect Wallet</button>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
     </header>
 
-    <section class="hero" style="background-image: url('images/vision-bg.png');">
+    <section class="vision-hero" style="background-image: url('images/vision-bg.png');">
         <div class="container">
-            <h2>Our Vision for the Future</h2>
-            <p>Creating a decentralized ecosystem that empowers everyone</p>
+            <h1>Our Vision</h1>
+            <p>Shaping the future of decentralized finance</p>
         </div>
     </section>
 
     <section class="vision-content">
         <div class="container">
-            <div class="vision-grid">
-                <div class="vision-card animated-image">
-                    <i class="fas fa-globe"></i>
-                    <h3>Global Reach</h3>
-                    <p>Building a network that spans across borders to connect people worldwide</p>
-                </div>
-                <div class="vision-card animated-image">
-                    <i class="fas fa-hand-holding-heart"></i>
-                    <h3>Social Impact</h3>
-                    <p>Creating real change in communities through blockchain technology</p>
-                </div>
-                <div class="vision-card animated-image">
-                    <i class="fas fa-chart-network"></i>
-                    <h3>Network Growth</h3>
-                    <p>Expanding our services to reach millions of users globally</p>
+            <div class="vision-text">
+                <h2>Decentralized Trading for Everyone</h2>
+                <p>At VNST Swap, we envision a world where anyone, anywhere can participate in decentralized finance without barriers. Our platform is designed to make DeFi accessible to both crypto veterans and newcomers alike.</p>
+                
+                <div class="vision-points">
+                    <div class="vision-point">
+                        <i class="fas fa-globe"></i>
+                        <h3>Global Accessibility</h3>
+                        <p>We're building a platform that's available to users worldwide, regardless of their location or financial status.</p>
+                    </div>
+                    <div class="vision-point">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Security First</h3>
+                        <p>User funds and data security are our top priorities in every decision we make.</p>
+                    </div>
+                    <div class="vision-point">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h3>High Performance</h3>
+                        <p>Our technology stack is optimized for speed and efficiency, ensuring smooth trading experiences.</p>
+                    </div>
                 </div>
             </div>
-            
-            <div class="vision-statement animated-image">
-                <h3>Our Long-Term Vision</h3>
-                <p>At V Network Services, we envision a world where financial opportunities are accessible to all, regardless of economic status or geographic location. Our goal is to create a self-sustaining ecosystem where every participant can benefit from the growth of the network while contributing to meaningful social change.</p>
-                <p>We are committed to developing innovative blockchain solutions that solve real-world problems, with a special focus on empowering underserved communities. By 2030, we aim to have established a fully decentralized platform that operates independently while continuing to deliver value to our token holders.</p>
+        </div>
+    </section>
+
+    <section class="roadmap">
+        <div class="container">
+            <h2 class="section-title">Development Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Q1 2023</div>
+                    <div class="timeline-content">
+                        <h3>Platform Launch</h3>
+                        <p>Initial release of VNST Swap with basic token swapping functionality</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Q2 2023</div>
+                    <div class="timeline-content">
+                        <h3>VNST Token Release</h3>
+                        <p>Introduction of the VNST token with staking and governance features</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Q3 2023</div>
+                    <div class="timeline-content">
+                        <h3>Mobile App Beta</h3>
+                        <p>Release of mobile application for iOS and Android</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Q4 2023</div>
+                    <div class="timeline-content">
+                        <h3>Cross-Chain Integration</h3>
+                        <p>Support for multiple blockchains beyond Ethereum</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Decentralized Exchange</h3>
+                        <p>Full-fledged DEX with advanced trading features</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-community">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Be part of the decentralized trading revolution</p>
+            <div class="community-links">
+                <a href="https://t.me/vnstoken" class="community-link" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="https://x.com/vnservices07?t=nWJAfVspUfvYb6IKNkkOaw&s=09" class="community-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://discord.gg/example" class="community-link" target="_blank">
+                    <i class="fab fa-discord"></i>
+                    <span>Discord</span>
+                </a>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="social-links">
-                <a href="https://www.facebook.com/share/1C7Ciu39DY/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://x.com/vnservices07?t=nWJAfVspUfvYb6IKNkkOaw&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/vnetworkserviceofficial?igsh=MTl0MW9uZ2w0YmFtZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://youtube.com/@vnetworkservices?si=vowQkbD11Yb6zgdj" target="_blank"><i class="fab fa-youtube"></i></a>
-                <a href="https://whatsapp.com/channel/0029Vb2UHbIGk1G1PYwrI81V" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a href="https://t.me/vnstoken" target="_blank"><i class="fab fa-telegram"></i></a>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="VNST Swap Logo">
+                <h3>VNST Swap</h3>
+                <p>Decentralized Trading Platform</p>
             </div>
-            <p>&copy; 2025 V Network Services. All rights reserved.</p>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="token.html">Token</a></li>
+                    <li><a href="vision.html">Vision</a></li>
+                    <li><a href="whyjoin.html">Why Join</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1C7Ciu39DY/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/vnservices07?t=nWJAfVspUfvYb6IKNkkOaw&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/vnetworkserviceofficial?igsh=MTl0MW9uZ2w0YmFtZQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://youtube.com/@vnetworkservices?si=vowQkbD11Yb6zgdj" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://whatsapp.com/channel/0029Vb2UHbIGk1G1PYwrI81V" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/vnstoken" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 VNST Swap. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <div class="wallet-modal" id="walletModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Connect Wallet</h2>
+            <div class="modal-wallets">
+                <div class="modal-wallet-option" data-wallet="metamask">
+                    <img src="images/metamask-icon.png" alt="MetaMask">
+                    <p>MetaMask</p>
+                </div>
+                <div class="modal-wallet-option" data-wallet="walletconnect">
+                    <img src="images/walletconnect-icon.png" alt="WalletConnect">
+                    <p>WalletConnect</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
